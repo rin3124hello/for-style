@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリ名  - Name of application -
 
-Things you may want to cover:
+ForStyle
 
-* Ruby version
+# 概要   - Description -
 
-* System dependencies
+・　４つのコミュニケーションタイプ診断
+・　ユーザー同士のチャットコミュニケーション
 
-* Configuration
 
-* Database creation
+# 制作背景　- Background -
 
-* Database initialization
+・　女性管理職、経営者など、個性に合わせたコミュニケーションをとりたいと考えている人
+・　自己啓発のために自分のタイプを知り、他者の考え方を学びたいと考えている人
+・　仕事のコミュニケーションで考えたことや感じたことを発信・閲覧して共有したい人
 
-* How to run the test suite
+に特化したコミュニティサイト
 
-* Services (job queues, cache servers, search engines, etc.)
+# 実装予定の内容　- Doing -　
 
-* Deployment instructions
-
-* ...
+・　ユーザー管理機能
+・　タイプ別診断
+・　ツイート機能
+・　コメント機能
