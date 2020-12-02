@@ -8,13 +8,12 @@
 | email              | string  | null:false | 
 | encrypted_password | string  | null:false | 
 | job                | string  |            | 
-| type_id            | integer |            | 
+| type               | integer |            | 
 
 ### Association
 
 - has_many :tweets
 - has_many :comments
-- has_one :diagnose
 
 ## Tweets table
 
@@ -41,16 +40,6 @@
 
 - belongs_to :user
 - belongs_to :tweet
-
-## Diagnose Table
-
-| Column | Type    | Options    | 
-| ------ | ------- | ---------- | 
-| type   | integer | null:false | 
-
-### Association
-
-- belongs_to :user
 
 
 # アプリ名  - Name of application -
