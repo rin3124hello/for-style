@@ -22,20 +22,23 @@
 | text   | string     | null:false       | 
 | user   | references | foreign_key:true | 
 
+### Association
+
+- belongs_to :user
+- has_many :comments
+
 ## Comments table
 
 | Column       | Type       | Options          | 
 | ------------ | ---------- | ---------------- | 
 | comment_text | string     | null:false       | 
 | user         | references | foreign_key:true | 
-| tweet        | references | foreign_key:true | 
+| tweet        | references | foreign_key:true |
 
 ### Association
 
 - belongs_to :user
 - belongs_to :tweet
-
-
 
 # アプリ名  - Name of application -
 
